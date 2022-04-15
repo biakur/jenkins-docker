@@ -2,7 +2,7 @@
 FROM centos:7
 
 # LABEL is tag instruction adds metadata to an image. A LABEL is a key-value pair.
-LABEL maintainers = "DevOp team"
+LABEL maintainers = "DevOp team "
 
 # Update tehe system and install httpd using RUN command
 RUN yum -y update && yum clean all
